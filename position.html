@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        .box{
+            border: 2px dashed goldenrod;
+        }
+        /*.Quan{
+            position: relative;
+            left: 50px;
+            top: -10px
+        }*/
+        /*.Quan{
+            position: absolute;
+            top: 50px;
+        }*/
+        /*.Quan{
+            position: sticky;
+            top: 0px;
+        }*/
+        .Quan{
+            position: fixed;
+            top: 200px;
+            left: 500px;
+        }
+        .dummy{
+            border: 2px solid rgb(10, 93, 93);
+            width: 200px;
+            height: 200px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Position</h2>
+    <ol>
+        <!-- Flow related -->
+        <li>Static</li>
+        <li>Relative: <small>current position relative a kototuku cng  hobe. and will not leave the current spot</small></li>
+        <li>Absolute <small>will lose it's own posetion and move based on the root or given parent position.</small></li>
+        <!-- Scroll related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="container">
+        <div class="box back"><img src="work (1).jpeg" alt=""></div>
+        <div class="box Quan"><img src="work (2).jpg" alt=""></div>
+        <div class="box Filistin"><img src="work (3).jpg" alt=""></div>
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+    
+
+</body>
+</html>
